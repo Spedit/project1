@@ -1,0 +1,211 @@
+body {
+    background-color: #323232;
+    /*color: white;*/
+
+}
+.portfolio, .about, .contact/*, h1, h2, h3, h4, h5, h6*/ {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+hr {
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 70px;
+}
+.hr-bottom {
+    margin-top: 70px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5px;
+}
+/*h1 {
+    color: beige;
+}*/
+.nav-special-item {
+    /*background-color: transparent;*/
+    /*position: relative;
+    margin-top: -30px;*/
+}
+.portfolio{
+    background-color:  #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.nav1{
+    margin-top: 30px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    z-index: 2;
+    justify-content: center;
+}
+
+.nav1 a{
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+
+
+.nav1 ul, li{
+    padding-top: 5px;
+    display: inline-block;
+    list-style-type: none;
+    z-index: 2;
+
+}
+.nav1 a:hover{
+
+    color: #315e54;
+}
+.hexagon {
+    position: relative;
+    border: 10px white;
+    width: 182px;
+    height: 209px;
+    background-color: #323232;
+    display: inline-block;
+    margin: 6.60px 0;
+    padding-top: 50px;
+    overflow: visible;
+    z-index: 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 86.60px solid #323232;
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 66.60px solid #323232;
+}
+
+@media (max-width: 440px) {
+    .nav1{
+        height: 30px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        z-index: 2;
+    }
+    .nav-bg{
+        width: auto;
+
+        padding-right: 0px;
+        z-index: 1;
+    }
+    .nav1 li {
+        padding-top: 5px;
+        display: inline-block;
+        list-style-type: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 0.75rem;
+    }
+}
+
+
+.about {
+    padding-top: 2rem;
+    height: 250px;
+    background-color: #2eb398;
+    color: #d7fcf5;
+}
+h4 {
+    color:#e0e0e0;
+}
+h5 {
+    color:#bebebe;
+}
+
+.contact-info {
+    margin-top: 100px;
+    color: #ffffff;
+    font-weight: bold;
+}
+footer{
+    background-color: #222222;
+
+}
+h6 {
+    font-size: 0.75rem;
+}
+.hexaHolder{
+    /*height: 115px;
+    width: 99px;*/
+    max-height: 209px;
+    max-width: 189px;
+    /*float: left;*/
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    /*border: 10px black;*/
+}
+
+@media (max-width: 1290px) {
+    .hexaHolder{
+        max-height: 209px;
+        max-width: 189px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+    }
+}
+.hexa img{
+    width:100%;
+    margin-top: 0px;
+
+}
+.hexa, .hexa div {
+    margin: 0 auto;
+    /*transform-origin: 50% 50%;*/
+    overflow: hidden;
+}
+.hexa {
+    text-align: center;
+    margin: 0;
+    /*width: 135px;
+    height: 115px;*/
+
+}
+.hexa div {
+    width: 100%;
+    height: 100%;
+}
+.hexa {
+    transform: rotate(120deg);
+}
+.hex1 {
+    transform: rotate(-60deg);
+}
+.hex2 {
+    transform: rotate(-60deg);
+}
+
+.hex-row {
+    clear: left;
+}
+
+
+#wrap {
+    min-width:900px;
+}
